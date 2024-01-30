@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Hard_Rock";
+    src: url("./fonts/HARD_ROCK.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "Rock-and-Roll";
+    src: url("./fonts/rocknroll_typo_crazy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "The_Dark";
+    src: url("./fonts/TheDark.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 95%;
+    margin-left: 2%;
+    background: linear-gradient(118deg, rgb(17, 17, 17) 0%, rgb(17, 17, 17) 20%, #e92424 20%, #e92424 40%, black 40%, black 80%, #e92424 80%, #e92424 100%);
+}
+
+
+
+/*Barre de nav*/
+nav a {
+    font-family: The_Dark;
+}
+
+/*Les grands titre*/
+.amembres,
+.discographie,
+.datesdeconcerts,
+.contact {
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 1.6em;
+    font-family: The_Dark;
+}
+
+
+/*Les images des membres du groupe*/
+#groupe img {
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+}
+
+/*Les noms sous les images des membres du groupe et le footer*/
+#groupe figcaption,
+footer {
+    text-align: center;
+    color: white;
+}
+
+/*Partie tableau avec les dates des concerts*/
+#datesconcerts {
+    width: 80%;
+}
+
+.table tr th {
+    color: #e92424;
+}
+
+/*Bouton de contact*/
+.col4 {
+    text-align: center;
+}
